@@ -15,7 +15,7 @@ body {
 
 ul {
   list-style: none;
-  padding: 0;
+  
 }
 
 img {
@@ -51,4 +51,9 @@ h2 {
 
 .country-info {
   margin-left: 40%;
+}
+
+.country-wrap {
+  font-size: xx-large;
+  padding: 0;
 }

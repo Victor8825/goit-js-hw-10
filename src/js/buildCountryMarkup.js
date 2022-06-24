@@ -1,4 +1,4 @@
-export const buildCardMarkup = ({flags, name, capital, population, languages}) => {
+export const buildCountryMarkup = ({flags, name, capital, population, languages}) => {
   let languagesArray = [];
   const values = Object.values(languages).join(", ");
   for(const value of values) {
