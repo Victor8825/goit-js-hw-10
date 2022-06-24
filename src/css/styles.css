@@ -10,11 +10,45 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: url(../images/bgimage-dot-grid.webp);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  margin-right: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
 
 #search-box {
   font: inherit;
+  font-size: 30px;
+  font-weight: 500;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  cursor: pointer;
+  margin-left: 40%;
+}
+
+
+#search-box:focus {
+  outline-color:cornflowerblue; 
+}
+
+.country-list__element {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 39%;
+}
+
+.country-info {
+  margin-left: 40%;
 }
